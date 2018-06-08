@@ -1,0 +1,24 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmSku": {
+      "value": "Standard_D1_v2"
+    },
+    "vmssName": {
+      "value": "atulmvmsscd"
+    },
+    "instanceCount": {
+      "value": 1
+    },
+    "adminUsername": {
+      "value": "tfs"
+    },
+    "imageUri":{
+      "value": "https://atulmpackerstorage.blob.core.windows.net/system/Microsoft.Compute/Images/vsts-buildimagetask/Release-8-osDisk.17536171-a355-407b-88f0-d25d42d5dcf7.vhd"
+    },
+    "adminPassword": {
+      "value": "@!HoHum@4321"
+    }
+  }
+}
